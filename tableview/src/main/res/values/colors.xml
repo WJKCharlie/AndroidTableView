@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_header_even">#69C4D4</color>
+    <color name="color_header_odd">#96D7E3</color>
+</resources>
