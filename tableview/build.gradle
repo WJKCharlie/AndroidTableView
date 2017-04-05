@@ -3,13 +3,21 @@ apply plugin: 'com.android.library'
 def final tableViewLibraryVersion = '1.0.0'
 
 ext{
+    bintrayRepo = 'maven'
     bintrayName = 'AndroidTableView'
 
     publishedGroupId = 'com.wjk.tableview'
     libraryName = 'TableView'
     artifact = 'tableview'
 
+    siteUrl = 'https://github.com/WJKCharlie/AndroidTableView'
+    gitUrl = 'https://github.com/WJKCharlie/AndroidTableView.git'
+
     libraryVersion = tableViewLibraryVersion
+
+    developerId = 'jkwang'
+    developerName = 'JK Wang'
+    developerEmail = 'wjkong2014@hotmail.com'
 }
 
 android {
