@@ -1,5 +1,17 @@
 apply plugin: 'com.android.library'
 
+def final tableViewLibraryVersion = '1.0.0'
+
+ext{
+    bintrayName = 'AndroidTableView'
+
+    publishedGroupId = 'com.wjk.tableview'
+    libraryName = 'TableView'
+    artifact = 'tableview'
+
+    libraryVersion = tableViewLibraryVersion
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
