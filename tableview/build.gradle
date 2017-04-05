@@ -10,6 +10,8 @@ ext{
     libraryName = 'TableView'
     artifact = 'tableview'
 
+    libraryDescription = 'An Android library containing a simple TableView'
+
     siteUrl = 'https://github.com/WJKCharlie/AndroidTableView'
     gitUrl = 'https://github.com/WJKCharlie/AndroidTableView.git'
 
@@ -18,6 +20,10 @@ ext{
     developerId = 'jkwang'
     developerName = 'JK Wang'
     developerEmail = 'wjkong2014@hotmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
 
 android {
