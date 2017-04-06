@@ -4,3 +4,21 @@
 
 # 结构图如下
 ![github](https://github.com/WJKCharlie/AndroidTableView/raw/master/screenshot/1.png)
+
+# 添加依赖到自己的项目
+### 1、在根目录的build.gradle添加如下代码
+```Java
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+### 2、在项目所在目录的build.gradle添加如下代码
+```Java
+dependencies {
+          ...
+	        compile 'com.github.WJKCharlie:AndroidTableView:V1.0.0'
+	}
+```
